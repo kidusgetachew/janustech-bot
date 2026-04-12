@@ -1,0 +1,656 @@
+2026-04-05 06:31:06 | INFO     | smcbot | SMCBot initialized.
+2026-04-05 06:31:07 | INFO     | smcbot | Connected to Alpaca [PAPER]. Balance: $100,000.00
+2026-04-05 06:31:07 | INFO     | smcbot | New trading day started. Balance: $100,000.00
+2026-04-05 06:31:07 | INFO     | smcbot | All modules initialized. Bot ready.
+2026-04-05 06:31:08 | DEBUG    | smcbot | Fetched 122 1Day bars for SPY
+2026-04-05 06:31:08 | DEBUG    | smcbot | Fetched 249 1Day bars for SPY
+2026-04-05 06:31:08 | DEBUG    | smcbot | Data refreshed: SPY 1Day (249 bars)
+2026-04-05 06:31:08 | DEBUG    | smcbot | Fetched 235 4Hour bars for SPY
+2026-04-05 06:31:08 | DEBUG    | smcbot | Data refreshed: SPY 4Hour (235 bars)
+2026-04-05 06:31:08 | DEBUG    | smcbot | Fetched 358 1Hour bars for SPY
+2026-04-05 06:31:08 | DEBUG    | smcbot | Data refreshed: SPY 1Hour (358 bars)
+2026-04-05 06:31:09 | DEBUG    | smcbot | Fetched 662 15Min bars for SPY
+2026-04-05 06:31:09 | DEBUG    | smcbot | Data refreshed: SPY 15Min (662 bars)
+2026-04-05 06:31:09 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:31:09 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:31:21 | DEBUG    | smcbot | Fetched 122 1Day bars for SPY
+2026-04-05 06:31:25 | DEBUG    | smcbot | Fetched 122 1Day bars for SPY
+2026-04-05 06:31:28 | DEBUG    | smcbot | Fetched 122 1Day bars for SPY
+2026-04-05 06:31:33 | INFO     | smcbot | Pre-loading market data...
+2026-04-05 06:31:33 | DEBUG    | smcbot | Fetched 249 1Day bars for SPY
+2026-04-05 06:31:33 | DEBUG    | smcbot | Data refreshed: SPY 1Day (249 bars)
+2026-04-05 06:31:33 | INFO     | smcbot | Loaded 249 bars | SPY 1Day
+2026-04-05 06:31:34 | DEBUG    | smcbot | Fetched 235 4Hour bars for SPY
+2026-04-05 06:31:34 | DEBUG    | smcbot | Data refreshed: SPY 4Hour (235 bars)
+2026-04-05 06:31:34 | INFO     | smcbot | Loaded 235 bars | SPY 4Hour
+2026-04-05 06:31:34 | DEBUG    | smcbot | Fetched 358 1Hour bars for SPY
+2026-04-05 06:31:34 | DEBUG    | smcbot | Data refreshed: SPY 1Hour (358 bars)
+2026-04-05 06:31:34 | INFO     | smcbot | Loaded 358 bars | SPY 1Hour
+2026-04-05 06:31:34 | DEBUG    | smcbot | Fetched 662 15Min bars for SPY
+2026-04-05 06:31:34 | DEBUG    | smcbot | Data refreshed: SPY 15Min (662 bars)
+2026-04-05 06:31:34 | INFO     | smcbot | Loaded 662 bars | SPY 15Min
+2026-04-05 06:31:34 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:31:34 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:31:34 | INFO     | smcbot | Loaded 826 bars | SPY 5Min
+2026-04-05 06:31:34 | DEBUG    | smcbot | Fetched 249 1Day bars for QQQ
+2026-04-05 06:31:34 | DEBUG    | smcbot | Data refreshed: QQQ 1Day (249 bars)
+2026-04-05 06:31:34 | INFO     | smcbot | Loaded 249 bars | QQQ 1Day
+2026-04-05 06:31:35 | DEBUG    | smcbot | Fetched 239 4Hour bars for QQQ
+2026-04-05 06:31:35 | DEBUG    | smcbot | Data refreshed: QQQ 4Hour (239 bars)
+2026-04-05 06:31:35 | INFO     | smcbot | Loaded 239 bars | QQQ 4Hour
+2026-04-05 06:31:35 | DEBUG    | smcbot | Fetched 368 1Hour bars for QQQ
+2026-04-05 06:31:35 | DEBUG    | smcbot | Data refreshed: QQQ 1Hour (368 bars)
+2026-04-05 06:31:35 | INFO     | smcbot | Loaded 368 bars | QQQ 1Hour
+2026-04-05 06:31:35 | DEBUG    | smcbot | Fetched 668 15Min bars for QQQ
+2026-04-05 06:31:35 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (668 bars)
+2026-04-05 06:31:35 | INFO     | smcbot | Loaded 668 bars | QQQ 15Min
+2026-04-05 06:31:35 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:31:35 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:31:35 | INFO     | smcbot | Loaded 827 bars | QQQ 5Min
+2026-04-05 06:31:35 | INFO     | smcbot | Trading loop started.
+2026-04-05 06:31:35 | INFO     | smcbot | Bot started. Watching: ['SPY', 'QQQ']
+2026-04-05 06:31:35 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:31:35 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:31:35 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:31:35 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:31:35 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:31:35 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:31:35 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:31:54 | DEBUG    | smcbot | Fetched 122 1Day bars for SPY
+2026-04-05 06:32:05 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:32:05 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:32:05 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:32:05 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:32:05 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:32:05 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:32:05 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:32:06 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:32:06 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:32:06 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:32:06 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:32:36 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:32:36 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:32:36 | DEBUG    | smcbot | Fetched 662 15Min bars for SPY
+2026-04-05 06:32:36 | DEBUG    | smcbot | Data refreshed: SPY 15Min (662 bars)
+2026-04-05 06:32:36 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:32:36 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:32:36 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:32:36 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:32:36 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:32:36 | DEBUG    | smcbot | Fetched 668 15Min bars for QQQ
+2026-04-05 06:32:36 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (668 bars)
+2026-04-05 06:32:36 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:32:36 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:32:36 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:32:36 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:33:06 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:33:06 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:33:06 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:33:06 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:33:06 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:33:06 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:33:06 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:33:07 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:33:07 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:33:07 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:33:07 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:33:37 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:33:37 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:33:37 | DEBUG    | smcbot | Fetched 662 15Min bars for SPY
+2026-04-05 06:33:37 | DEBUG    | smcbot | Data refreshed: SPY 15Min (662 bars)
+2026-04-05 06:33:37 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:33:37 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:33:37 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:33:37 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:33:37 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:33:37 | DEBUG    | smcbot | Fetched 668 15Min bars for QQQ
+2026-04-05 06:33:37 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (668 bars)
+2026-04-05 06:33:37 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:33:37 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:33:37 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:33:37 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:34:07 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:34:07 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:34:07 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:34:07 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:34:07 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:34:07 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:34:07 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:34:07 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:34:07 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:34:07 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:34:07 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:34:38 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:34:38 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:34:38 | DEBUG    | smcbot | Fetched 662 15Min bars for SPY
+2026-04-05 06:34:38 | DEBUG    | smcbot | Data refreshed: SPY 15Min (662 bars)
+2026-04-05 06:34:38 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:34:38 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:34:38 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:34:38 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:34:38 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:34:38 | DEBUG    | smcbot | Fetched 668 15Min bars for QQQ
+2026-04-05 06:34:38 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (668 bars)
+2026-04-05 06:34:38 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:34:38 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:34:38 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:34:38 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:35:08 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:35:08 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:35:08 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:35:08 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:35:08 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:35:08 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:35:08 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:35:08 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:35:08 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:35:08 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:35:08 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:51:45 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:51:45 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:51:47 | DEBUG    | smcbot | Fetched 235 4Hour bars for SPY
+2026-04-05 06:51:47 | DEBUG    | smcbot | Data refreshed: SPY 4Hour (235 bars)
+2026-04-05 06:51:47 | DEBUG    | smcbot | Fetched 358 1Hour bars for SPY
+2026-04-05 06:51:47 | DEBUG    | smcbot | Data refreshed: SPY 1Hour (358 bars)
+2026-04-05 06:51:47 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:51:47 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:51:47 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:51:47 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:51:47 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:51:47 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:51:47 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:51:47 | DEBUG    | smcbot | Fetched 239 4Hour bars for QQQ
+2026-04-05 06:51:47 | DEBUG    | smcbot | Data refreshed: QQQ 4Hour (239 bars)
+2026-04-05 06:51:48 | DEBUG    | smcbot | Fetched 368 1Hour bars for QQQ
+2026-04-05 06:51:48 | DEBUG    | smcbot | Data refreshed: QQQ 1Hour (368 bars)
+2026-04-05 06:51:48 | DEBUG    | smcbot | Fetched 667 15Min bars for QQQ
+2026-04-05 06:51:48 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (667 bars)
+2026-04-05 06:51:48 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:51:48 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:51:48 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:51:48 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:52:18 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:52:18 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:52:18 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:52:18 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:52:18 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:52:18 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:52:18 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:52:18 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:52:18 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:52:18 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:52:18 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:52:48 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:52:48 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:52:49 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:52:49 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:52:49 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:52:49 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:52:49 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:52:49 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:52:49 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:52:49 | DEBUG    | smcbot | Fetched 667 15Min bars for QQQ
+2026-04-05 06:52:49 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (667 bars)
+2026-04-05 06:52:49 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:52:49 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:52:49 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:52:49 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:53:19 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:53:19 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:53:19 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:53:19 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:53:19 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:53:19 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:53:19 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:53:19 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:53:19 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:53:19 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:53:19 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:53:49 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:53:49 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:53:49 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:53:49 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:53:50 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:53:50 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:53:50 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:53:50 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:53:50 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:53:50 | DEBUG    | smcbot | Fetched 667 15Min bars for QQQ
+2026-04-05 06:53:50 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (667 bars)
+2026-04-05 06:53:50 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:53:50 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:53:50 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:53:50 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:54:20 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:54:20 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:54:20 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:54:20 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:54:20 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:54:20 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:54:20 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:54:20 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:54:20 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:54:20 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:54:20 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:54:50 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:54:50 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:54:50 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:54:50 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:54:50 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:54:50 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:54:50 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:54:50 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:54:50 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:54:50 | DEBUG    | smcbot | Fetched 667 15Min bars for QQQ
+2026-04-05 06:54:50 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (667 bars)
+2026-04-05 06:54:51 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:54:51 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:54:51 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:54:51 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:55:21 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:55:21 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:55:21 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:55:21 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:55:21 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:55:21 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:55:21 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:55:21 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:55:21 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:55:21 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:55:21 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:55:51 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:55:51 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:55:51 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:55:51 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:55:51 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:55:51 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:55:51 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:55:51 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:55:51 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:55:51 | DEBUG    | smcbot | Fetched 667 15Min bars for QQQ
+2026-04-05 06:55:51 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (667 bars)
+2026-04-05 06:55:51 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:55:51 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:55:51 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:55:51 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:56:02 | INFO     | smcbot | SMCBot initialized.
+2026-04-05 06:56:02 | INFO     | smcbot | Connected to Alpaca [PAPER]. Balance: $100,000.00
+2026-04-05 06:56:03 | INFO     | smcbot | New trading day started. Balance: $100,000.00
+2026-04-05 06:56:03 | INFO     | smcbot | All modules initialized. Bot ready.
+2026-04-05 06:56:03 | DEBUG    | smcbot | Fetched 122 1Day bars for SPY
+2026-04-05 06:56:03 | DEBUG    | smcbot | Fetched 249 1Day bars for SPY
+2026-04-05 06:56:03 | DEBUG    | smcbot | Data refreshed: SPY 1Day (249 bars)
+2026-04-05 06:56:04 | DEBUG    | smcbot | Fetched 235 4Hour bars for SPY
+2026-04-05 06:56:04 | DEBUG    | smcbot | Data refreshed: SPY 4Hour (235 bars)
+2026-04-05 06:56:04 | DEBUG    | smcbot | Fetched 358 1Hour bars for SPY
+2026-04-05 06:56:04 | DEBUG    | smcbot | Data refreshed: SPY 1Hour (358 bars)
+2026-04-05 06:56:04 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:56:04 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:56:04 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:56:04 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:56:08 | DEBUG    | smcbot | Fetched 368 5Min bars for SPY
+2026-04-05 06:56:21 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:56:21 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:56:22 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:56:22 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:56:22 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:56:22 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:56:22 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:56:22 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:56:22 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:56:22 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:56:22 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:56:52 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:56:52 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:56:52 | DEBUG    | smcbot | Fetched 358 1Hour bars for SPY
+2026-04-05 06:56:52 | DEBUG    | smcbot | Data refreshed: SPY 1Hour (358 bars)
+2026-04-05 06:56:52 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:56:52 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:56:52 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:56:52 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:56:52 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:56:52 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:56:52 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:56:52 | DEBUG    | smcbot | Fetched 368 1Hour bars for QQQ
+2026-04-05 06:56:52 | DEBUG    | smcbot | Data refreshed: QQQ 1Hour (368 bars)
+2026-04-05 06:56:52 | DEBUG    | smcbot | Fetched 667 15Min bars for QQQ
+2026-04-05 06:56:52 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (667 bars)
+2026-04-05 06:56:53 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:56:53 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:56:53 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:56:53 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:57:23 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:57:23 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:57:23 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:57:23 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:57:23 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:57:23 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:57:23 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:57:23 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:57:23 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:57:23 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:57:23 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:57:53 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:57:53 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:57:53 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:57:53 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:57:53 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:57:53 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:57:53 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:57:53 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:57:53 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:57:53 | DEBUG    | smcbot | Fetched 667 15Min bars for QQQ
+2026-04-05 06:57:53 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (667 bars)
+2026-04-05 06:57:53 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:57:53 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:57:53 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:57:53 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:58:23 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:58:23 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:58:23 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:58:23 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:58:23 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:58:23 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:58:23 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:58:24 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:58:24 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:58:24 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:58:24 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:58:54 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:58:54 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:58:54 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:58:54 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:58:54 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:58:54 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:58:54 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:58:54 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:58:54 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:58:54 | DEBUG    | smcbot | Fetched 667 15Min bars for QQQ
+2026-04-05 06:58:54 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (667 bars)
+2026-04-05 06:58:54 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:58:54 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:58:54 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:58:54 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:59:24 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:59:24 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:59:24 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:59:24 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:59:24 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:59:24 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:59:24 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:59:24 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:59:24 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:59:24 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:59:24 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 06:59:54 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 06:59:54 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 06:59:54 | DEBUG    | smcbot | Fetched 661 15Min bars for SPY
+2026-04-05 06:59:54 | DEBUG    | smcbot | Data refreshed: SPY 15Min (661 bars)
+2026-04-05 06:59:55 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 06:59:55 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 06:59:55 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 06:59:55 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 06:59:55 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 06:59:55 | DEBUG    | smcbot | Fetched 667 15Min bars for QQQ
+2026-04-05 06:59:55 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (667 bars)
+2026-04-05 06:59:55 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 06:59:55 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 06:59:55 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 06:59:55 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:00:25 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:00:25 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:00:25 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:00:25 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:00:25 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:00:25 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:00:25 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:00:25 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:00:25 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:00:25 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:00:25 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:00:55 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:00:55 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:00:55 | DEBUG    | smcbot | Fetched 660 15Min bars for SPY
+2026-04-05 07:00:55 | DEBUG    | smcbot | Data refreshed: SPY 15Min (660 bars)
+2026-04-05 07:00:55 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:00:55 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:00:55 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:00:55 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:00:55 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:00:55 | DEBUG    | smcbot | Fetched 666 15Min bars for QQQ
+2026-04-05 07:00:55 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (666 bars)
+2026-04-05 07:00:55 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:00:55 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:00:55 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:00:55 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:01:25 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:01:25 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:01:26 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:01:26 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:01:26 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:01:26 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:01:26 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:01:26 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:01:26 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:01:26 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:01:26 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:01:56 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:01:56 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:01:56 | DEBUG    | smcbot | Fetched 357 1Hour bars for SPY
+2026-04-05 07:01:56 | DEBUG    | smcbot | Data refreshed: SPY 1Hour (357 bars)
+2026-04-05 07:01:56 | DEBUG    | smcbot | Fetched 660 15Min bars for SPY
+2026-04-05 07:01:56 | DEBUG    | smcbot | Data refreshed: SPY 15Min (660 bars)
+2026-04-05 07:01:56 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:01:56 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:01:56 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:01:56 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:01:56 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:01:56 | DEBUG    | smcbot | Fetched 367 1Hour bars for QQQ
+2026-04-05 07:01:56 | DEBUG    | smcbot | Data refreshed: QQQ 1Hour (367 bars)
+2026-04-05 07:01:56 | DEBUG    | smcbot | Fetched 666 15Min bars for QQQ
+2026-04-05 07:01:56 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (666 bars)
+2026-04-05 07:01:56 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:01:56 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:01:56 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:01:56 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:02:26 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:02:26 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:02:27 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:02:27 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:02:27 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:02:27 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:02:27 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:02:27 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:02:27 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:02:27 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:02:27 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:02:57 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:02:57 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:02:57 | DEBUG    | smcbot | Fetched 660 15Min bars for SPY
+2026-04-05 07:02:57 | DEBUG    | smcbot | Data refreshed: SPY 15Min (660 bars)
+2026-04-05 07:02:57 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:02:57 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:02:57 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:02:57 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:02:57 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:02:57 | DEBUG    | smcbot | Fetched 666 15Min bars for QQQ
+2026-04-05 07:02:57 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (666 bars)
+2026-04-05 07:02:57 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:02:57 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:02:57 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:02:57 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:03:27 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:03:27 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:03:28 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:03:28 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:03:28 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:03:28 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:03:28 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:03:28 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:03:28 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:03:28 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:03:28 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:03:58 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:03:58 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:03:58 | DEBUG    | smcbot | Fetched 660 15Min bars for SPY
+2026-04-05 07:03:58 | DEBUG    | smcbot | Data refreshed: SPY 15Min (660 bars)
+2026-04-05 07:03:58 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:03:58 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:03:58 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:03:58 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:03:58 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:03:58 | DEBUG    | smcbot | Fetched 666 15Min bars for QQQ
+2026-04-05 07:03:58 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (666 bars)
+2026-04-05 07:03:58 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:03:58 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:03:58 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:03:58 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:04:28 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:04:28 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:04:29 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:04:29 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:04:29 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:04:29 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:04:29 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:04:29 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:04:29 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:04:29 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:04:29 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:04:59 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:04:59 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:04:59 | DEBUG    | smcbot | Fetched 660 15Min bars for SPY
+2026-04-05 07:04:59 | DEBUG    | smcbot | Data refreshed: SPY 15Min (660 bars)
+2026-04-05 07:04:59 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:04:59 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:04:59 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:04:59 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:04:59 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:04:59 | DEBUG    | smcbot | Fetched 666 15Min bars for QQQ
+2026-04-05 07:04:59 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (666 bars)
+2026-04-05 07:04:59 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:04:59 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:04:59 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:04:59 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:05:29 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:05:29 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:05:29 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:05:29 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:05:29 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:05:29 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:05:29 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:05:29 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:05:29 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:05:29 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:05:29 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:06:00 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:06:00 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:06:00 | DEBUG    | smcbot | Fetched 660 15Min bars for SPY
+2026-04-05 07:06:00 | DEBUG    | smcbot | Data refreshed: SPY 15Min (660 bars)
+2026-04-05 07:06:00 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:06:00 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:06:00 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:06:00 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:06:00 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:06:00 | DEBUG    | smcbot | Fetched 666 15Min bars for QQQ
+2026-04-05 07:06:00 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (666 bars)
+2026-04-05 07:06:00 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:06:00 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:06:00 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:06:00 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:06:30 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:06:30 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:06:30 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:06:30 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:06:30 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:06:30 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:06:30 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:06:30 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:06:30 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:06:30 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:06:30 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:07:00 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:07:00 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:07:01 | DEBUG    | smcbot | Fetched 235 4Hour bars for SPY
+2026-04-05 07:07:01 | DEBUG    | smcbot | Data refreshed: SPY 4Hour (235 bars)
+2026-04-05 07:07:01 | DEBUG    | smcbot | Fetched 357 1Hour bars for SPY
+2026-04-05 07:07:01 | DEBUG    | smcbot | Data refreshed: SPY 1Hour (357 bars)
+2026-04-05 07:07:01 | DEBUG    | smcbot | Fetched 660 15Min bars for SPY
+2026-04-05 07:07:01 | DEBUG    | smcbot | Data refreshed: SPY 15Min (660 bars)
+2026-04-05 07:07:01 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:07:01 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:07:01 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:07:01 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:07:01 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:07:01 | DEBUG    | smcbot | Fetched 239 4Hour bars for QQQ
+2026-04-05 07:07:01 | DEBUG    | smcbot | Data refreshed: QQQ 4Hour (239 bars)
+2026-04-05 07:07:02 | DEBUG    | smcbot | Fetched 367 1Hour bars for QQQ
+2026-04-05 07:07:02 | DEBUG    | smcbot | Data refreshed: QQQ 1Hour (367 bars)
+2026-04-05 07:07:02 | DEBUG    | smcbot | Fetched 666 15Min bars for QQQ
+2026-04-05 07:07:02 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (666 bars)
+2026-04-05 07:07:02 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:07:02 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:07:02 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:07:02 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:07:32 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:07:32 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:07:32 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:07:32 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:07:32 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:07:32 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:07:32 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:07:32 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:07:32 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:07:32 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:07:32 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:08:02 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:08:02 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:08:02 | DEBUG    | smcbot | Fetched 660 15Min bars for SPY
+2026-04-05 07:08:02 | DEBUG    | smcbot | Data refreshed: SPY 15Min (660 bars)
+2026-04-05 07:08:02 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:08:02 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:08:02 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:08:02 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:08:02 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:08:03 | DEBUG    | smcbot | Fetched 666 15Min bars for QQQ
+2026-04-05 07:08:03 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (666 bars)
+2026-04-05 07:08:03 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:08:03 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:08:03 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:08:03 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:08:33 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:08:33 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:08:33 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:08:33 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:08:33 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:08:33 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:08:33 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:08:33 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:08:33 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:08:33 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:08:33 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:09:03 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:09:03 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:09:03 | DEBUG    | smcbot | Fetched 660 15Min bars for SPY
+2026-04-05 07:09:03 | DEBUG    | smcbot | Data refreshed: SPY 15Min (660 bars)
+2026-04-05 07:09:03 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:09:03 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:09:03 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:09:03 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:09:03 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:09:03 | DEBUG    | smcbot | Fetched 666 15Min bars for QQQ
+2026-04-05 07:09:03 | DEBUG    | smcbot | Data refreshed: QQQ 15Min (666 bars)
+2026-04-05 07:09:03 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:09:03 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:09:03 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:09:03 | INFO     | smcbot | QQQ | Bias neutral — skipping
+2026-04-05 07:09:33 | DEBUG    | smcbot | In active session: new_york
+2026-04-05 07:09:33 | DEBUG    | smcbot | Scanning SPY...
+2026-04-05 07:09:34 | DEBUG    | smcbot | Fetched 826 5Min bars for SPY
+2026-04-05 07:09:34 | DEBUG    | smcbot | Data refreshed: SPY 5Min (826 bars)
+2026-04-05 07:09:34 | INFO     | smcbot | Running SMC analysis on SPY...
+2026-04-05 07:09:34 | INFO     | smcbot | SPY | Bias neutral — skipping
+2026-04-05 07:09:34 | DEBUG    | smcbot | Scanning QQQ...
+2026-04-05 07:09:34 | DEBUG    | smcbot | Fetched 827 5Min bars for QQQ
+2026-04-05 07:09:34 | DEBUG    | smcbot | Data refreshed: QQQ 5Min (827 bars)
+2026-04-05 07:09:34 | INFO     | smcbot | Running SMC analysis on QQQ...
+2026-04-05 07:09:34 | INFO     | smcbot | QQQ | Bias neutral — skipping
