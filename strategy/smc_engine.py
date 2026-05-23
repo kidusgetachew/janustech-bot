@@ -2,6 +2,7 @@
 SMCBot — SMC Engine
 """
 
+import requests
 import pandas as pd
 from dataclasses import dataclass, field
 from typing import Optional
@@ -52,6 +53,59 @@ class SMCEngine:
             fvg_min_size=config.fvg_min_size_pts,
             ob_lookback=config.ob_lookback,
         )
+        self._vix_cache = {"value": None, "timestamp": None}
+
+    def is_trending(self, df: pd.DataFrame) -> bool:
+        """Check if market is trending vs choppy. Only trade trending markets."""
+        if len(df) < 50:
+            return True
+        ema20 = df["close"].ewm(span=20).mean().iloc[-1]
+        ema50 = df["close"].ewm(span=50).mean().iloc[-1]
+        spread = abs(ema20 - ema50) / ema50
+        return spread > 0.005
+
+    def has_volume_confirmation(self, df: pd.DataFrame) -> bool:
+        """Check if latest candle has above average volume."""
+        if len(df) < 20:
+            return True
+        avg_volume = df["volume"].tail(20).mean()
+        latest_volume = df["volume"].iloc[-1]
+        return latest_volume > avg_volume * 1.1
+
+    def get_vix(self) -> float:
+        """Fetch current VIX level. Returns 0 if unavailable."""
+        try:
+            import time
+            now = time.time()
+            # Cache VIX for 5 minutes
+            if self._vix_cache["value"] and self._vix_cache["timestamp"]:
+                if now - self._vix_cache["timestamp"] < 300:
+                    return self._vix_cache["value"]
+
+            url = "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX"
+            headers = {"User-Agent": "Mozilla/5.0"}
+            resp = requests.get(url, headers=headers, timeout=5)
+            data = resp.json()
+            vix = data["chart"]["result"][0]["meta"]["regularMarketPrice"]
+            self._vix_cache = {"value": vix, "timestamp": now}
+            return vix
+        except Exception:
+            return 0.0
+
+    def has_confirmation_candle(self, df: pd.DataFrame, bias: str) -> bool:
+        """
+        Check if the most recent closed candle confirms the trade direction.
+        Bullish: candle closes green (close > open)
+        Bearish: candle closes red (close < open)
+        """
+        if len(df) < 2:
+            return True
+        last_candle = df.iloc[-2]  # use the last CLOSED candle
+        if bias == "bullish":
+            return last_candle["close"] > last_candle["open"]
+        elif bias == "bearish":
+            return last_candle["close"] < last_candle["open"]
+        return False
 
     def analyze(self, symbol, daily_df, h4_df, h1_df, m15_df, m5_df):
         logger.info(f"Running SMC analysis on {symbol}...")
@@ -63,6 +117,29 @@ class SMCEngine:
 
         if bias == "neutral":
             logger.info(f"{symbol} | Bias neutral — skipping")
+            return None
+
+        # Market condition filter
+        if not self.is_trending(daily_df):
+            logger.info(f"{symbol} | Market choppy — skipping")
+            return None
+
+        # Volume confirmation
+        if not self.has_volume_confirmation(m15_df):
+            logger.info(f"{symbol} | Low volume — skipping")
+            return None
+
+        # VIX volatility filter
+        vix_max = getattr(self.config, "vix_max", 35.0)
+        vix = self.get_vix()
+        if vix > 0 and vix > vix_max:
+            logger.info(f"{symbol} | VIX too high ({vix:.1f} > {vix_max}) — skipping")
+            return None
+
+        # Confirmation candle filter
+        require_confirmation = getattr(self.config, "require_confirmation_candle", True)
+        if require_confirmation and not self.has_confirmation_candle(m15_df, bias):
+            logger.info(f"{symbol} | No confirmation candle — skipping")
             return None
 
         score += 1
