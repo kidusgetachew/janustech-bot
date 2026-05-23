@@ -3,12 +3,10 @@ SMCBot Configuration
 All parameters controlling bot behavior.
 Users set these via the UI — never hardcode API keys here.
 """
-
 import os
 from dataclasses import dataclass, field
 from typing import List
 from dotenv import load_dotenv
-
 load_dotenv()
 
 
@@ -51,13 +49,16 @@ class StrategyConfig:
     tf_confirmation: str = "1Hour"
     tf_entry: str = "15Min"
     tf_precision: str = "5Min"
-
     fvg_min_size_pts: float = 5.0
     ob_lookback: int = 20
     bos_lookback: int = 10
     swing_lookback: int = 5
     confluence_min: int = 3
     equilibrium_zone: float = 0.1
+
+    # Filters
+    vix_max: float = 35.0          # skip trading if VIX above this
+    require_confirmation_candle: bool = True  # wait for candle confirmation
 
     sessions: dict = field(default_factory=lambda: {
         "london": {"start": 7, "end": 12},
@@ -74,7 +75,7 @@ class StrategyConfig:
 class MarketsConfig:
     """Markets to trade."""
     symbols: List[str] = field(
-        default_factory=lambda: ["SPY", "QQQ"]
+        default_factory=lambda: ["SPY", "QQQ", "AAPL", "MSFT", "NVDA", "TSLA"]
     )
     asset_type: str = "stock"
 
@@ -98,7 +99,6 @@ class BotConfig:
     strategy: StrategyConfig = field(default_factory=StrategyConfig)
     markets: MarketsConfig = field(default_factory=MarketsConfig)
     alerts: AlertConfig = field(default_factory=AlertConfig)
-
     is_running: bool = False
     log_level: str = "INFO"
     log_dir: str = "logs"
